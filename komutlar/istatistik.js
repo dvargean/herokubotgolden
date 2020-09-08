@@ -19,7 +19,7 @@ exports.run = async (client, message, args) => {
     .addField("**Discord.JS**", `\`v${Discord.version}\``, true)
     .addField("**Bot sürümü**",`\`v${bot_version}\``,  true)
     .addField("**Ping**", `\`${client.ws.ping}ms\`` , true)
-    .addField("**Sahip**", `\`<@${bot_sahip}\``, true);
+    .addField("**Sahip**", `\`Dvargean#6161\``, true);
   return message.channel.send(msg);
 };
 
