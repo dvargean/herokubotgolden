@@ -1,0 +1,29 @@
+{
+    "name": "Discord Heroku Starter",
+    "description": "Simple discord.js Bot.",
+    "logo": "https://avatars3.githubusercontent.com/u/61326539?s=460&u=83d817a935a74fd82f92d429387d7fb69b772043&v=4",
+    "keywords": [
+      "discord",
+      "discord.js"
+    ],
+    "repository": "https://github.com/ysfsvm/discord-heroku-starter/",
+    "website": "https://github.com/ysfsvm/discord-heroku-starter/",
+    "env": {
+        "TOKEN": {
+            "description": "Discord bot token.",
+            "required": true
+        },
+        "PREFIX": {
+            "description": "Your bot prefix.",
+            "required": true
+        },
+        "SAHIP": {
+            "description": "Bot owner.",
+            "required": true
+        },
+        "VERSION": {
+            "description": "Bot version.",
+            "required": true
+        }
+    }
+} 
